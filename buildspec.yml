@@ -9,15 +9,14 @@ phases:
   pre_build:
     commands:
       - echo pre_build
-      - command
   build:
     commands:
       - mvn package
       - echo build
   post_build:
     commands:
-      - command
       - echo post_build
+
 artifacts:
   files:
     - target\spring-boot-todo-rest-api-h2-aws-0.0.1-SNAPSHOT.jar
