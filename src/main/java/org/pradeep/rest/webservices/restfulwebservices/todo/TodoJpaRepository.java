@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.todo;
+package org.pradeep.rest.webservices.restfulwebservices.todo;
 
 import java.util.List;
 
